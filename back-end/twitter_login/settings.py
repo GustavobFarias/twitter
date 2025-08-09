@@ -61,7 +61,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://twitter-eight-iota.vercel.app"
 ]
 
 ROOT_URLCONF = 'twitter_login.urls'
