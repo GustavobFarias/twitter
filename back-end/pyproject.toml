@@ -1,18 +1,17 @@
-[project]
+[tool.poetry]
 name = "back-end"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Gustavo",email = "gustavoburgerf@gmail.com"}
-]
+authors = ["Gustavo <gustavoburgerf@gmail.com>"]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "django (>=5.2.4,<6.0.0)",
-    "djangorestframework (>=3.16.0,<4.0.0)",
-    "django-cors-headers (>=4.7.0,<5.0.0)"
-]
+package-mode = false
 
+[tool.poetry.dependencies]
+python = ">=3.12"
+django = ">=5.2.4,<6.0.0"
+djangorestframework = ">=3.16.0,<4.0.0"
+django-cors-headers = ">=4.7.0,<5.0.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
